@@ -1,0 +1,17 @@
+@(titlePage: String, task: Task, textButton: String, postUrl: Call)(implicit request: MessagesRequestHeader)
+
+@main(titlePage) {
+    <div class="container">
+        <h2 class="alert alert-success">@titlePage</h2>
+
+        <form action="@postUrl" method="post">
+            <div class="form-group">
+                <label for="title">Описание</label>
+                <input type="text" id="title" name="title" value="@task.title" class="form-control bg-secondary text-white" required>
+                <input type="hidden" name="id" value="@task.id">
+            </div>
+            <button type="submit" class="btn btn-success">@textButton</button>
+        </form>
+
+    </div>
+}
