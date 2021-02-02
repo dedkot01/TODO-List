@@ -8,14 +8,14 @@
 sbt run
 ```
 
-Необходимо, чтобы была запущена локально СУБД Postgresql, порт 5432, пользователь `postgres`, пароль `postgres`, база данных `postgres`.
+Необходимо, чтобы была запущена локально СУБД [Postgresql 13.1](https://www.postgresql.org), порт 5432, пользователь `postgres`, пароль `postgres`, база данных `postgres`.
 
 ## Dependencies
 
-* PlayFramework v2.8
-* Play-Slick v5.0.0
-* Postgresql v42.2.18
-* Bootstrap v4.5.3
+* [PlayFramework v2.8](https://www.playframework.com)
+* [Play-Slick v5.0.0](https://mvnrepository.com/artifact/com.typesafe.play/play-slick)
+* [Postgresql v42.2.18](https://mvnrepository.com/artifact/org.postgresql/postgresql)
+* [Bootstrap v4.5.3](https://getbootstrap.com)
 
 ## Evolution
 
